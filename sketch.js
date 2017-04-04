@@ -1,7 +1,8 @@
-//function setup() {
+function setup() {
   createCanvas(100,100);
-//  background(0);
-//}
+  background(0);
+createP(10,10,"Test");
+}
 
 //function draw() {
 //	noStroke();
