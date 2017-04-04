@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-	noStroke();
-	fill(random(0,180),0,random(0,180),random(0,180));
+//	noStroke();
+//	fill(random(0,180),0,random(0,180),random(0,180));
 	ellipse(random(0,400),random(0,400),40,40);
 }
