@@ -5,6 +5,7 @@ createCanvas(windowWidth,windowHeight);
 background(0);
 textSize(300);
 textStyle(BOLD);
+textFont("Verdana");
 }
 
 function draw() {
