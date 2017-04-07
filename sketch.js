@@ -4,6 +4,7 @@ function setup() {
 createCanvas(windowWidth,windowHeight);
 background(0);
 textSize(150);
+textStyle(BOLD);
 }
 
 function draw() {
