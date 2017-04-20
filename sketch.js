@@ -1,17 +1,22 @@
-var s="Han Min"
+var i=0;
+var speed =1;
 
-function setup() {
-createCanvas(windowWidth,windowHeight);
-background(0);
-textSize(300);
-textStyle(BOLD);
-textFont("Verdana");
+function setup(){
+  createCanvas(600,400);
+  background(200);
 }
 
-function draw() {
-noStroke();
-fill(random(0,120),0,random(0,180),random(0,180));
-ellipse(random(0,windowWidth),random(0,windowHeight),40,40);
-fill(0);
-text(s,50,300);
+function draw(){
+  background(200);
+  
+  i+=0.03;
+  
+  translate(200,400);
+  rotate(sin(i)/i);
+  stroke("green");
+  strokeWeight(20);
+  line(0,0,0,-150);
+
 }
+  
+  
