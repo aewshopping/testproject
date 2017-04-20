@@ -22,5 +22,6 @@ damp = damp *(1.003);
 }
   
 function mousePressed(){
+  i=asin(sin(i)/damp);
   damp=1;
 }
