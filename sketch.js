@@ -1,5 +1,6 @@
 var i=0;
-var speed =1;
+var speed =0.03;
+var damp=1
 
 function setup(){
   createCanvas(600,400);
@@ -9,14 +10,15 @@ function setup(){
 function draw(){
   background(200);
   
-  i+=0.03;
+  i+=speed;
   
   translate(200,400);
-  rotate(sin(i)/ceil(i));
+  rotate(sin(i)/damp);
   stroke("green");
   strokeWeight(20);
   line(0,0,0,-150);
 
+damp = damp *(1.003);  
 }
   
   
