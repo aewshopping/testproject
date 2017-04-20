@@ -1,6 +1,6 @@
 var i=0;
 var speed =0.03;
-var damp=1
+var damp=1000
 
 function setup(){
   createCanvas(600,400);
