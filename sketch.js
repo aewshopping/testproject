@@ -21,4 +21,6 @@ function draw(){
 damp = damp *(1.003);  
 }
   
-  
+function mousePressed(){
+  damp=1;
+}
