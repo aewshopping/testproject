@@ -12,7 +12,7 @@ function draw(){
   i+=0.03;
   
   translate(200,400);
-  rotate(sin(i)/floor(i));
+  rotate(sin(i)/ceil(i));
   stroke("green");
   strokeWeight(20);
   line(0,0,0,-150);
