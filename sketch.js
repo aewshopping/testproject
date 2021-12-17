@@ -7,6 +7,7 @@ function setup(){
 //  background(200);
 }
 
+/*
 function draw(){
   background(200);
   
@@ -25,3 +26,4 @@ function mousePressed(){
   i=asin(sin(i)/damp);
   damp=1;
 }
+/*
